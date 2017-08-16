@@ -1,0 +1,220 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin:0;
+	padding:0;
+	zoom:1;
+}
+body{
+	font-family:"微软雅黑";
+}
+a,u{
+	text-decoration:none;
+}
+ul,ol,li{
+	list-style:none;
+}
+img{
+	display:block;
+	border:0;
+}
+em,i{
+	font-style:normal;
+}
+b,strong{
+	font-weight:100;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:100;
+	font-size:16px;
+}
+.clearfix:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+
+
+.classification{
+	position:absolute;
+	top:0;
+	left:0;
+	width:200px;
+	z-index:9999;
+}
+.classification h2{
+	display:block;
+	height:34px;
+	background:#c40000;
+	font-size:14px;
+	line-height:34px;
+	color:#fff;
+	text-align:left;
+	position:relative;
+	padding:0 0 0 34px;
+}
+.classification h2 .ico{
+	position:absolute;
+	top:14px;
+	right:20px;
+	width:10px;
+	height:6px;
+	background:url(images/zolcom_list_ico.png) no-repeat;
+	background-position:0 0;
+	overflow:hidden;
+}
+.classification .navMenu{
+	height:411px;
+	position:relative;
+	background:#2d2d2d;
+}
+.classification .navMenu .nav_Menu{
+	position:relative;
+	height:341px;
+}
+.classification .navMenu .nav_Menu li{
+	position:relative;
+	margin:-1px 0 0 1px;
+	padding:0 0 1px 31px;
+	height:38px;
+	border-top:1px solid #3d3d3d;
+	font-size:12px;
+	line-height:38px;
+	color:#fff;
+}
+.classification .navMenu .nav_Menu li:hover{
+	background:#fff;
+	color:#2d2d2d;
+}
+.classification .navMenu .nav_Menu li:hover>.item a{
+	color:#2d2d2d;
+}
+
+
+.classification .navMenu .nav_Menu li a:hover{
+	text-decoration:underline;
+}
+.classification .navMenu .nav_Menu li .item .iconfont{
+	position:absolute;
+	top:12px;
+	left:10px;
+	color:#ababab;
+	font-size:17px;
+	line-height:17px;
+}
+.classification .navMenu .nav_Menu li .item a{
+	margin:0 3px;
+	color:#fff;
+	font-weight:bold;
+}
+.classification .navMenu .nav_Menu li .content1{
+	position:absolute;
+	top:0;
+	left:199px;
+	padding:5px 30px;
+	width:690px;
+	height:399px;
+	background:rgba(255,255,255,0.98);
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	box-shadow:3px 3px 5px rgba(0,0,0,0.05);
+}
+.classification .navMenu .nav_Menu li .content1 dl{
+	position:relative;
+	padding:15px 0 20px 68px;
+	font-size:12px;
+	line-height:26px;
+	border-bottom:1px solid #eee;
+}
+.classification .navMenu .nav_Menu li .content1 dl dt{
+	position:absolute;
+	top:15px;
+	left:0;
+	font-weight:bold;
+}
+.classification .navMenu .nav_Menu li .content1 dl dt a{
+	margin:0 8px;
+	color:#333;
+}
+.classification .navMenu .nav_Menu li .content1 dl dd{
+	color:#d3d3d3;
+}
+.classification .navMenu .nav_Menu li .content1 dl dd a{
+	margin:0 8px;
+	color:#333;
+	font-size:12px;
+	line-height:26px;
+}
+.classification .navMenu .nav_Menu li .content1 .service{
+	padding:15px 0 8px 68px;
+	border:none;
+	position:relative;
+	font-size:12px;
+	line-height:26px;
+}
+.classification .navMenu .nav_Menu li .content1 .service dt{
+	position:absolute;
+	top:15px;
+	left:0;
+	font-weight:bold;
+}
+.classification .navMenu .nav_Menu li .content1 .service dt a{
+	color:#00ae75;
+	margin:0 8px;
+}
+.classification .navMenu .nav_Menu li .content1 .service dd{
+	padding:0 0 0 8px;
+	color:#d3d3d3;
+}
+.classification .navMenu .nav_Menu li .content1 .service dd a{
+	position:relative;
+	display:inline-block;
+	padding:0 0 0 27px;
+	margin:0 20px 0 0;
+	color:#00ae75;
+}
+
+.classification .navMenu .nav_Menu li .content1 .service dd a:hover{
+	text-decoration:none;
+}
+.classification .navMenu .nav_Menu li .content1 .service dd a .iconfont{
+	position:absolute;
+	top:2px;
+	left:0;
+	font-size:22px;
+	line-height:24px;
+}
+
+.classification .navMenu .nav_Menu #navmenuli2 .content1{
+	top:-39px;
+}
+.classification .navMenu .nav_Menu #navmenuli3 .content1{
+	top:-78px;
+}
+.classification .navMenu .nav_Menu #navmenuli4 .content1{
+	top:-117px;
+}
+.classification .navMenu .nav_Menu #navmenuli5 .content1{
+	top:-156px;
+}
+.classification .navMenu .nav_Menu #navmenuli6 .content1{
+	top:-195px;
+}
+.classification .navMenu .nav_Menu #navmenuli7 .content1{
+	top:-234px;
+}
+.classification .navMenu .nav_Menu #navmenuli8 .content1{
+	top:-273px;
+}
+
+.classification .navMenu .adBox{
+	width:200px;
+	height:70px;
+	background:#222;
+}
+.classification .navMenu .adBox a img{
+	width:200px;
+	height:70px;
+}
